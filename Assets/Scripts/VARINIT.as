@@ -102,4 +102,4 @@ var movePool : Array = new Array();
 var savefile = SharedObject.getLocal("VirtuaCreature_Block_1.sav", "/");
 var savefile2 = SharedObject.getLocal("VirtuaCreature_Block_2.sav", "/");
 var savefile3 = SharedObject.getLocal("VirtuaCreature_Block_3.sav", "/");
-var options = SharedObject.getLocal("VC_Options", "/");
+var options = SharedObject.getLocal("VC_Options_Legacy", "/");
