@@ -1,0 +1,282 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="07 - Movieclips/EquipToSlot_Inner" itemID="57f2ecd0-00000166" lastModified="1552423417">
+  <timeline>
+    <DOMTimeline name="EquipToSlot_Inner" currentFrame="15">
+      <layers>
+        <DOMLayer name="Level" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="25" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="eqlevel" width="25" height="6" includeOutlines="true" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="-28.75" ty="-28.95"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="5" bitmapSize="100" face="PokemonGB"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Rarity" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="25" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="eqrarity" width="10" height="6" includeOutlines="true" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="19" ty="-28.95"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="5" bitmapSize="100" face="PokemonGB"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/BlankBox">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Potion Purple">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Potion Blue">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Potion Green">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="04 - Sprites/_Equipment/Potion Red">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/sword purple">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/sword blue">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/sword greem">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/sword red">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Sheild Purple">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Sheild Blue">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Sheild Greem">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Sheild Red">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="13" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Running Shoes Purple">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Running Shoes Blue">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Running Shoes Green">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Running Shoes Red">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Medical Cross Purple">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Medical Cross Blue">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="19" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Medical Cross Green">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Medical Cross Red">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="21" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Staff Purple">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Staff Blue">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="23" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Staff Green">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Staff Red">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

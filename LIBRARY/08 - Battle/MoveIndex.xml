@@ -1,0 +1,867 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="08 - Battle/MoveIndex" itemID="585346df-0000016c" lastModified="1581458521">
+  <timeline>
+    <DOMTimeline name="MoveIndex">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Omnipresent" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix tx="1" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(0);
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Crash" symbolType="button">
+                  <matrix>
+                    <Matrix tx="1" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(1);
+}
+on(rollOver) {
+	_root.showMoveInfo(1);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Jolt" symbolType="button">
+                  <matrix>
+                    <Matrix tx="0.5" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(2);
+}
+on(rollOver) {
+	_root.showMoveInfo(2);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Claw" symbolType="button">
+                  <matrix>
+                    <Matrix tx="0.5" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(3);
+}
+on(rollOver) {
+	_root.showMoveInfo(3);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Rock Break" symbolType="button">
+                  <matrix>
+                    <Matrix tx="1" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(4);
+}
+on(rollOver) {
+	_root.showMoveInfo(4);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Bash" symbolType="button">
+                  <matrix>
+                    <Matrix tx="1" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(5);
+}
+on(rollOver) {
+	_root.showMoveInfo(5);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Bubbles" symbolType="button">
+                  <matrix>
+                    <Matrix tx="1" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(6);
+}
+on(rollOver) {
+	_root.showMoveInfo(6);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Punch" symbolType="button">
+                  <matrix>
+                    <Matrix tx="0.5" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(7);
+}
+on(rollOver) {
+	_root.showMoveInfo(7);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Flame Punch" symbolType="button">
+                  <matrix>
+                    <Matrix tx="0.5" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(8);
+}
+on(rollOver) {
+	_root.showMoveInfo(8);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Shock Punch" symbolType="button">
+                  <matrix>
+                    <Matrix tx="0.5" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(9);
+}
+on(rollOver) {
+	_root.showMoveInfo(9);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Quick Punch" symbolType="button">
+                  <matrix>
+                    <Matrix tx="1" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(10);
+}
+on(rollOver) {
+	_root.showMoveInfo(10);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Hard Tackle" symbolType="button">
+                  <matrix>
+                    <Matrix tx="1" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(11);
+}
+on(rollOver) {
+	_root.showMoveInfo(11);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Ice Shard" symbolType="button">
+                  <matrix>
+                    <Matrix tx="0.5" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(12);
+}
+on(rollOver) {
+	_root.showMoveInfo(12);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="13" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Lava Rush" symbolType="button">
+                  <matrix>
+                    <Matrix tx="0.5" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(13);
+}
+on(rollOver) {
+	_root.showMoveInfo(13);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Geyser" symbolType="button">
+                  <matrix>
+                    <Matrix tx="0.5" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(14);
+}
+on(rollOver) {
+	_root.showMoveInfo(14);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Chomp" symbolType="button">
+                  <matrix>
+                    <Matrix tx="1" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(15);
+}
+on(rollOver) {
+	_root.showMoveInfo(15);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Aqua Punch" symbolType="button">
+                  <matrix>
+                    <Matrix tx="1" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(16);
+}
+on(rollOver) {
+	_root.showMoveInfo(16);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Toxins" symbolType="button">
+                  <matrix>
+                    <Matrix tx="0.5" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(17);
+}
+on(rollOver) {
+	_root.showMoveInfo(17);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Ice Blast" symbolType="button">
+                  <matrix>
+                    <Matrix tx="0.5" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(18);
+}
+on(rollOver) {
+	_root.showMoveInfo(18);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="19" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Super Speed" symbolType="button">
+                  <matrix>
+                    <Matrix tx="0.5" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(19);
+}
+on(rollOver) {
+	_root.showMoveInfo(19);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Triple Rush" symbolType="button">
+                  <matrix>
+                    <Matrix tx="1" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(20);
+}
+on(rollOver) {
+	_root.showMoveInfo(20);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="21" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Triple Gush" symbolType="button">
+                  <matrix>
+                    <Matrix tx="1" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(21);
+}
+on(rollOver) {
+	_root.showMoveInfo(21);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Cross Claw" symbolType="button">
+                  <matrix>
+                    <Matrix tx="0.5" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(22);
+}
+on(rollOver) {
+	_root.showMoveInfo(22);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="23" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Super Jolt" symbolType="button">
+                  <matrix>
+                    <Matrix tx="0.5" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(23);
+}
+on(rollOver) {
+	_root.showMoveInfo(23);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Rock Punch" symbolType="button">
+                  <matrix>
+                    <Matrix tx="0.5" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(24);
+}
+on(rollOver) {
+	_root.showMoveInfo(24);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Howl" symbolType="button">
+                  <matrix>
+                    <Matrix tx="2.5" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(25);
+}
+on(rollOver) {
+	_root.showMoveInfo(25);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="26" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Diffuse" symbolType="button">
+                  <matrix>
+                    <Matrix tx="1" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(26);
+}
+on(rollOver) {
+	_root.showMoveInfo(26);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="27" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Shriek" symbolType="button">
+                  <matrix>
+                    <Matrix tx="0.5" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(27);
+}
+on(rollOver) {
+	_root.showMoveInfo(27);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Omen" symbolType="button">
+                  <matrix>
+                    <Matrix tx="2.5" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(28);
+}
+on(rollOver) {
+	_root.showMoveInfo(28);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="29" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Hi-Freq" symbolType="button">
+                  <matrix>
+                    <Matrix tx="1" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(29);
+}
+on(rollOver) {
+	_root.showMoveInfo(29);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="30" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Lo-Freq" symbolType="button">
+                  <matrix>
+                    <Matrix tx="0.5" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(30);
+}
+on(rollOver) {
+	_root.showMoveInfo(30);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="31" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Scream" symbolType="button">
+                  <matrix>
+                    <Matrix tx="2.5" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(31);
+}
+on(rollOver) {
+	_root.showMoveInfo(31);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="32" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Curse" symbolType="button">
+                  <matrix>
+                    <Matrix tx="1" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(32);
+}
+on(rollOver) {
+	_root.showMoveInfo(32);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="33" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Cry" symbolType="button">
+                  <matrix>
+                    <Matrix tx="0.5" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(33);
+}
+on(rollOver) {
+	_root.showMoveInfo(33);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="34" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Iron Will" symbolType="button">
+                  <matrix>
+                    <Matrix tx="2.5" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(34);
+}
+on(rollOver) {
+	_root.showMoveInfo(34);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="35" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Boost" symbolType="button">
+                  <matrix>
+                    <Matrix tx="1" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(35);
+}
+on(rollOver) {
+	_root.showMoveInfo(35);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="36" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Moves/Veil" symbolType="button">
+                  <matrix>
+                    <Matrix tx="1" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.startTurn(36);
+}
+on(rollOver) {
+	_root.showMoveInfo(36);
+}
+on(rollOut) {
+	_root.defaultBoxText();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

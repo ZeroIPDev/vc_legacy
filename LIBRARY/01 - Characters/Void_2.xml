@@ -1,0 +1,63 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="01 - Characters/Void_2" itemID="5e6d6b93-00000e4a" lastModified="1584229830">
+  <timeline>
+    <DOMTimeline name="Void_2" currentFrame="20">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="29" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="29" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[if(_root.quickGenerate(1, 4, true) < 5) {
+	gotoAndPlay(1);
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="30" duration="15" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="45" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[gotoAndPlay(16);]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" duration="15" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/void_phase_2_f1.png">
+                  <matrix>
+                    <Matrix tx="-192" ty="-192"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="15" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/void_phase_2_f2.png">
+                  <matrix>
+                    <Matrix tx="-192" ty="-195"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="30" duration="16" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/void_phase_2_eyes-closed.png">
+                  <matrix>
+                    <Matrix tx="-192" ty="-207"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Space" itemID="57228f87-00000075" symbolType="button" lastModified="1461882775" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="Space">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Press Space">
+                  <matrix>
+                    <Matrix tx="-167.1" ty="-17.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="167.1" y="17.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

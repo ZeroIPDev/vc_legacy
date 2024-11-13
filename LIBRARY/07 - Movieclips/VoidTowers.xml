@@ -1,0 +1,39 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="07 - Movieclips/VoidTowers" itemID="5e6d6285-000004bb" lastModified="1584228526">
+  <timeline>
+    <DOMTimeline name="VoidTowers" currentFrame="1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Towers/battle tower void.png">
+                  <matrix>
+                    <Matrix a="0.375" d="0.375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Towers/destroyed tower.png">
+                  <matrix>
+                    <Matrix a="0.375" d="0.375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

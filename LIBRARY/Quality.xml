@@ -1,0 +1,94 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Quality" itemID="57229643-00000080" lastModified="1475795588">
+  <timeline>
+    <DOMTimeline name="Quality" currentFrame="2">
+      <layers>
+        <DOMLayer name="AS" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="HIGH" symbolType="button">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_quality = "MEDIUM";
+	_root.gameQuality = 2;
+	_root.options.data.gameQuality = _root.gameQuality;
+	_root.options.flush();
+	nextFrame();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="MED" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-32.1" ty="-12.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32.1" y="12.05"/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_quality = "LOW";
+	_root.gameQuality = 1;
+	_root.options.data.gameQuality = _root.gameQuality;
+	_root.options.flush();
+	nextFrame();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="LOW" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-32.1" ty="-12.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32.1" y="12.05"/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_quality = "HIGH";
+	_root.gameQuality = 3;
+	_root.options.data.gameQuality = _root.gameQuality;
+	_root.options.flush();
+	gotoAndStop(1);
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,48 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="01 - Characters/DefBlob" itemID="5b350932-000003a5" lastModified="1530202547">
+  <timeline>
+    <DOMTimeline name="DefBlob" currentFrame="13">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/DefF1.png">
+                  <matrix>
+                    <Matrix tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/DefF1.png">
+                  <matrix>
+                    <Matrix tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="04 - Sprites/_Creatures/DefF2.png">
+                  <matrix>
+                    <Matrix tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="23" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/DefF2.png">
+                  <matrix>
+                    <Matrix tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

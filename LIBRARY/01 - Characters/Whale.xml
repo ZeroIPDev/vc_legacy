@@ -1,0 +1,60 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="01 - Characters/Whale" itemID="5b351595-00000615" lastModified="1530205681">
+  <timeline>
+    <DOMTimeline name="Whale" currentFrame="23">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/WhaleFrame1.png">
+                  <matrix>
+                    <Matrix a="0.899993896484375" d="0.899993896484375" tx="-172.8" ty="-115.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="192" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/WhaleFrame1.png">
+                  <matrix>
+                    <Matrix a="0.899993896484375" d="0.899993896484375" tx="-172.8" ty="-115.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="192" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/WhaleFrame2.png">
+                  <matrix>
+                    <Matrix a="0.899993896484375" d="0.899993896484375" tx="-172.8" ty="-115.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="192" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="23" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/WhaleFrame2.png">
+                  <matrix>
+                    <Matrix a="0.899993896484375" d="0.899993896484375" tx="-172.8" ty="-115.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="192" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

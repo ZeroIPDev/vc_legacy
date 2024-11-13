@@ -1,0 +1,2734 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="08 - Battle/BattleAnims" itemID="5e04314d-00000428" lastModified="1584390998" lastUniqueIdentifier="4">
+  <timeline>
+    <DOMTimeline name="BattleAnims" currentFrame="667">
+      <layers>
+        <DOMLayer name="AS" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="8" name="Impact" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="8" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="9" duration="29" name="HitPhys" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="38" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="39" duration="17" name="StatDown" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="56" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="57" duration="17" name="StatUp" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="74" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="75" duration="34" name="Lightning" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="109" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="110" duration="8" name="Slash" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="118" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="119" duration="17" name="DoubleSlash" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="136" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="137" duration="11" name="Boulder" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="148" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="149" duration="32" name="Poison" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="181" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="182" duration="33" name="Bubble" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="215" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[gotoAndPlay(220);]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="216" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="219" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="220" duration="11" name="Icicle" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="231" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="232" duration="30" name="DeathFade" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="262" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDeath();
+stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="263" duration="15" name="Lava" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="278" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="279" duration="15" name="Geyser" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="294" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="295" duration="29" name="Punch" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="324" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="325" duration="29" name="Rock Punch" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="354" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="355" duration="29" name="Speed Punch" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="384" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="385" duration="37" name="Shock Punch" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="422" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="423" duration="29" name="Fire Punch" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="452" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="453" duration="22" name="Chomp" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="475" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="476" duration="29" name="Aqua Punch" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="505" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="506" duration="29" name="Shield" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="535" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="536" duration="65" name="Eye" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="601" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="602" duration="34" name="Lightning Purple" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="636" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="637" duration="29" name="Hit Green" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="666" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="667" duration="29" name="Hit Big" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="696" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[_root.gotoDamage();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="SFX" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="9" duration="5" keyMode="9728" soundName="03 - Sounds/Hit_Phys">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="14" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="19" duration="10" keyMode="9728" soundName="03 - Sounds/Hit_Phys">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="29" duration="10" keyMode="9728" soundName="03 - Sounds/Hit_Phys">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="39" duration="5" keyMode="9728" soundName="03 - Sounds/Laser_Shoot3.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="44" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="45" duration="4" keyMode="9728" soundName="03 - Sounds/Pickup_Coin5.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="49" duration="4" keyMode="9728" soundName="03 - Sounds/Pickup_Coin5.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="53" duration="4" keyMode="9728" soundName="03 - Sounds/Pickup_Coin5.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="57" duration="5" keyMode="9728" soundName="03 - Sounds/Laser_Shoot3_Reverse.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="62" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="63" duration="4" keyMode="9728" soundName="03 - Sounds/Pickup_Coin5.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="67" duration="4" keyMode="9728" soundName="03 - Sounds/Pickup_Coin5.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="71" duration="4" keyMode="9728" soundName="03 - Sounds/Pickup_Coin5.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="75" duration="10" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="85" duration="10" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="95" duration="15" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="110" duration="9" keyMode="9728" soundName="03 - Sounds/Jump.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="119" duration="9" keyMode="9728" soundName="03 - Sounds/Jump.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="128" duration="9" keyMode="9728" soundName="03 - Sounds/Jump.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="137" duration="12" keyMode="9728" soundName="03 - Sounds/Explosion8.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="149" duration="15" keyMode="9728" soundName="03 - Sounds/Explosion8.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="164" duration="6" keyMode="9728" soundName="03 - Sounds/Jump.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="170" duration="6" keyMode="9728" soundName="03 - Sounds/Jump.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="176" duration="6" keyMode="9728" soundName="03 - Sounds/Jump.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="182" duration="10" keyMode="9728" soundName="03 - Sounds/Hit_Phys">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="192" duration="10" keyMode="9728" soundName="03 - Sounds/Hit_Phys">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="202" duration="4" keyMode="9728" soundName="03 - Sounds/Pickup_Coin5.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="206" duration="4" keyMode="9728" soundName="03 - Sounds/Pickup_Coin5.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="210" duration="10" keyMode="9728" soundName="03 - Sounds/Pickup_Coin5.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="220" duration="4" keyMode="9728" soundName="03 - Sounds/Laser_Shoot.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="224" duration="4" keyMode="9728" soundName="03 - Sounds/Laser_Shoot.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="228" duration="4" keyMode="9728" soundName="03 - Sounds/Laser_Shoot.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="232" duration="31" keyMode="9728" soundName="03 - Sounds/Explosion6.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="263" duration="2" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="265" duration="14" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="279" duration="2" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="281" duration="14" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="295" duration="5" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="300" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="305" duration="10" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="315" duration="10" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="325" duration="5" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="330" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="335" duration="10" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="345" duration="10" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="355" duration="5" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="360" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="365" duration="10" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="375" duration="10" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="385" duration="5" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="390" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="395" duration="10" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="405" duration="8" keyMode="9728" soundName="03 - Sounds/Laser_Shoot3_Reverse.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="413" duration="10" keyMode="9728" soundName="03 - Sounds/Laser_Shoot3_Reverse.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="423" duration="5" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="428" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="433" duration="10" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="443" duration="10" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="453" duration="5" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="458" duration="6" keyMode="9728" soundName="03 - Sounds/Hit_Phys">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="464" duration="6" keyMode="9728" soundName="03 - Sounds/Hit_Phys">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="470" duration="6" keyMode="9728" soundName="03 - Sounds/Hit_Phys">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="476" duration="5" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="481" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="486" duration="10" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="496" duration="10" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="506" duration="5" keyMode="9728" soundName="03 - Sounds/Hit_Phys">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="511" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="516" duration="10" keyMode="9728" soundName="03 - Sounds/Hit_Phys">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="526" duration="10" keyMode="9728" soundName="03 - Sounds/Hit_Phys">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="536" duration="6" keyMode="9728" soundName="03 - Sounds/Hit_Hurt3.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="542" duration="6" keyMode="9728" soundName="03 - Sounds/Hit_Hurt3.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="548" duration="6" keyMode="9728" soundName="03 - Sounds/Hit_Hurt3.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="554" duration="48" keyMode="9728" soundName="03 - Sounds/SuperSpook.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="602" duration="10" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="612" duration="10" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="622" duration="15" keyMode="9728" soundName="03 - Sounds/Explosion2.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="637" duration="5" keyMode="9728" soundName="03 - Sounds/Hit_Hurt34.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="642" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="647" duration="10" keyMode="9728" soundName="03 - Sounds/Hit_Hurt34.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="657" duration="10" keyMode="9728" soundName="03 - Sounds/Hit_Hurt34.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="667" duration="5" keyMode="9728" soundName="03 - Sounds/Hit_Hurt_big.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="672" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="677" duration="10" keyMode="9728" soundName="03 - Sounds/Hit_Hurt_big.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="687" duration="10" keyMode="9728" soundName="03 - Sounds/Hit_Hurt_big.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Gfx2" color="#9933CC" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="453" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="453" duration="5" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="5000"><TimeMap strength="-100" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property TimeMapIndex="0" enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="4000"/></Property><Property TimeMapIndex="0" enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,64" next="0,64" previous="0,64" roving="0" timevalue="4000"/></Property><Property TimeMapIndex="0" enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property TimeMapIndex="0" enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property TimeMapIndex="0" enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property TimeMapIndex="0" enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property TimeMapIndex="0" enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 8">
+                  <matrix>
+                    <Matrix tx="-64" ty="-128"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="64" y="64"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="458" duration="18" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="476" duration="30" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="506" duration="30" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="536" duration="66" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="602" duration="35" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="637" duration="30" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="667" duration="30" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Graphic" color="#4FFF4F" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!3560 -3200|3560 3200!3560 3200|-3560 3200!-3560 3200|-3560 -3200!-3560 -3200|3560 -3200"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!3560 -3200S2|3560 3200!3560 3200|-3560 3200!-3560 3200|-3560 -3200!-3560 -3200|3560 -3200"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="9" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="08 - Battle/HitPhys" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="19" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="08 - Battle/HitPhys" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="29" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="08 - Battle/HitPhys" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="34" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="39" duration="6" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="6000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property TimeMapIndex="0" enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="4000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="5000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,55" next="0,55" previous="0,55" roving="0" timevalue="4000"/><Keyframe anchor="0,55" next="0,55" previous="0,55" roving="0" timevalue="5000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="4000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="5000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="4000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="5000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="4000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="5000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="4000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="5000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="4000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="5000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 5" centerPoint3DY="-55">
+                  <matrix>
+                    <Matrix tx="-180" ty="-127"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="180" y="72"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="45" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 5">
+                  <matrix>
+                    <Matrix tx="-180" ty="-72"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="180" y="72"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="47" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="49" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 5">
+                  <matrix>
+                    <Matrix tx="-180" ty="-72"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="180" y="72"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="51" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="53" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 5">
+                  <matrix>
+                    <Matrix tx="-180" ty="-72"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="180" y="72"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="55" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="57" duration="6" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="6000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property TimeMapIndex="0" enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="1000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="5000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="1000"/><Keyframe anchor="0,-55" next="0,-55" previous="0,-55" roving="0" timevalue="5000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="1000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="5000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="1000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="5000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="1000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="5000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="1000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="5000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="1000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="5000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 6">
+                  <matrix>
+                    <Matrix tx="-180" ty="-72"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="180" y="72"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="63" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 6" centerPoint3DY="-55">
+                  <matrix>
+                    <Matrix tx="-180" ty="-127"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="180" y="72"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="65" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="67" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 6" centerPoint3DY="-55">
+                  <matrix>
+                    <Matrix tx="-180" ty="-127"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="180" y="72"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="69" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="71" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 6" centerPoint3DY="-55">
+                  <matrix>
+                    <Matrix tx="-180" ty="-127"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="180" y="72"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="73" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="75" duration="5" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/lightning vc.png">
+                  <matrix>
+                    <Matrix a="3.50010681152344" d="3.49993896484375" tx="-56" ty="-148.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="24"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="80" duration="5" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="85" duration="5" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/lightning vc.png">
+                  <matrix>
+                    <Matrix a="3.50010681152344" d="3.49993896484375" tx="-56" ty="-148.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="24"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="90" duration="5" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="95" duration="5" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/lightning vc.png">
+                  <matrix>
+                    <Matrix a="3.50010681152344" d="3.49993896484375" tx="-56" ty="-148.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="24"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="100" duration="10" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="110" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/slash1.png">
+                  <matrix>
+                    <Matrix tx="-64" ty="-96"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="113" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/slash2.png">
+                  <matrix>
+                    <Matrix tx="-64" ty="-96"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="116" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/slash3.png">
+                  <matrix>
+                    <Matrix tx="-64" ty="-96"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="119" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/slash1.png">
+                  <matrix>
+                    <Matrix tx="-84" ty="-96"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="122" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/slash2.png">
+                  <matrix>
+                    <Matrix tx="-84" ty="-96"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="125" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/slash3.png">
+                  <matrix>
+                    <Matrix tx="-84" ty="-96"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="128" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/slash1.png">
+                  <matrix>
+                    <Matrix a="-1" tx="84" ty="-96"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="131" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/slash2.png">
+                  <matrix>
+                    <Matrix a="-1" tx="84" ty="-96"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="134" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/slash3.png">
+                  <matrix>
+                    <Matrix a="-1" tx="84" ty="-96"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="137" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/boulder1.png">
+                  <matrix>
+                    <Matrix tx="-96" ty="-64"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="140" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/boulder2.png">
+                  <matrix>
+                    <Matrix tx="-96" ty="-64"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="143" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/boulder3.png">
+                  <matrix>
+                    <Matrix tx="-96" ty="-64"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="146" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/boulder4.png">
+                  <matrix>
+                    <Matrix tx="-96" ty="-64"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="149" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/cloud1.png">
+                  <matrix>
+                    <Matrix tx="-96" ty="-64"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="152" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/cloud2.png">
+                  <matrix>
+                    <Matrix tx="-96" ty="-64"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="155" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/cloud3.png">
+                  <matrix>
+                    <Matrix tx="-96" ty="-64"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="158" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/cloud4.png">
+                  <matrix>
+                    <Matrix tx="-96" ty="-64"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="161" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="164" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/cloud4.png">
+                  <matrix>
+                    <Matrix tx="-96" ty="-64"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="167" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="170" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/cloud4.png">
+                  <matrix>
+                    <Matrix tx="-96" ty="-64"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="173" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="176" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/cloud4.png">
+                  <matrix>
+                    <Matrix tx="-96" ty="-64"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="179" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="182" duration="5" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/bubble.png">
+                  <matrix>
+                    <Matrix a="4" d="4" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="16"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="187" duration="5" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="192" duration="5" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/bubble.png">
+                  <matrix>
+                    <Matrix a="4" d="4" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="16"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="197" duration="5" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="202" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/bubble pop.png">
+                  <matrix>
+                    <Matrix a="4" d="4" tx="-64" ty="-64"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="205" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="207" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/bubble pop.png">
+                  <matrix>
+                    <Matrix a="4" d="4" tx="-64" ty="-64"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="210" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="212" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/bubble pop.png">
+                  <matrix>
+                    <Matrix a="4" d="4" tx="-64" ty="-64"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="215" duration="5" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="220" duration="4" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/iceshard.png">
+                  <matrix>
+                    <Matrix tx="-128" ty="-96"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="224" duration="4" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/iceshard.png">
+                  <matrix>
+                    <Matrix tx="-64" ty="-96"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="228" duration="4" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/iceshard.png">
+                  <matrix>
+                    <Matrix ty="-96"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="232" duration="31" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="31000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="30000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="30000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="30000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="30000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="30000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="30000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="30000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="30000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 7">
+                  <matrix>
+                    <Matrix tx="-178" ty="-160"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="178" y="160"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="263" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/lavating1.png">
+                  <matrix>
+                    <Matrix a="2" d="2" tx="-64" ty="-96"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32" y="48"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="265" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/lavating.png">
+                  <matrix>
+                    <Matrix a="2" d="2" tx="-64" ty="-96"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32" y="48"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="267" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/lavating1.png">
+                  <matrix>
+                    <Matrix a="2" d="2" tx="-64" ty="-96"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32" y="48"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="269" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/lavating.png">
+                  <matrix>
+                    <Matrix a="2" d="2" tx="-64" ty="-96"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32" y="48"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="271" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/lavating1.png">
+                  <matrix>
+                    <Matrix a="2" d="2" tx="-64" ty="-96"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32" y="48"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="273" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="04 - Sprites/_SFX/lavating.png">
+                  <matrix>
+                    <Matrix a="2" d="2" tx="-64" ty="-96"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32" y="48"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="275" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/lavating1.png">
+                  <matrix>
+                    <Matrix a="2" d="2" tx="-64" ty="-96"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32" y="48"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="277" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/lavating.png">
+                  <matrix>
+                    <Matrix a="2" d="2" tx="-64" ty="-96"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32" y="48"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="279" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/geiserting.png">
+                  <matrix>
+                    <Matrix a="2" d="2" tx="-64" ty="-96"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32" y="48"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="281" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/geiserting2.png">
+                  <matrix>
+                    <Matrix a="2" d="2" tx="-64" ty="-96"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32" y="48"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="283" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/geiserting.png">
+                  <matrix>
+                    <Matrix a="2" d="2" tx="-64" ty="-96"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32" y="48"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="285" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/geiserting2.png">
+                  <matrix>
+                    <Matrix a="2" d="2" tx="-64" ty="-96"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32" y="48"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="287" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/geiserting.png">
+                  <matrix>
+                    <Matrix a="2" d="2" tx="-64" ty="-96"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32" y="48"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="289" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/geiserting2.png">
+                  <matrix>
+                    <Matrix a="2" d="2" tx="-64" ty="-96"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32" y="48"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="291" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/geiserting.png">
+                  <matrix>
+                    <Matrix a="2" d="2" tx="-64" ty="-96"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32" y="48"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="293" duration="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/geiserting2.png">
+                  <matrix>
+                    <Matrix a="2" d="2" tx="-64" ty="-96"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32" y="48"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="295" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_reg.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="300" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="305" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_reg.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="310" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="315" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_reg.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="320" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="325" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_rocj.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-63.75" ty="-60"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="330" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="335" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_rocj.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-63.75" ty="-60"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="340" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="345" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_rocj.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-63.75" ty="-60"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="350" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="355" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_speed.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-80" ty="-80"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="360" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="365" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_speed.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-80" ty="-80"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="370" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="375" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_speed.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-80" ty="-80"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="380" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="385" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_elec1.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="390" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="395" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_elec1.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="400" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="405" duration="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_elec1.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="407" duration="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_elec2.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="409" duration="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_elec3.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="411" duration="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_elec1.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="413" duration="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_elec2.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="415" duration="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_elec3.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="417" duration="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_elec1.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="419" duration="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_elec2.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="421" duration="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_elec3.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="423" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_fire.png">
+                  <matrix>
+                    <Matrix a="0.699996948242188" d="0.699996948242188" tx="-89.6" ty="-89.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="428" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="433" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_fire.png">
+                  <matrix>
+                    <Matrix a="0.699996948242188" d="0.699996948242188" tx="-89.6" ty="-89.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="438" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="443" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_fire.png">
+                  <matrix>
+                    <Matrix a="0.699996948242188" d="0.699996948242188" tx="-89.6" ty="-89.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="448" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="453" duration="5" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="5000"><TimeMap strength="-100" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property TimeMapIndex="0" enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="4000"/></Property><Property TimeMapIndex="0" enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-64" next="0,-64" previous="0,-64" roving="0" timevalue="4000"/></Property><Property TimeMapIndex="0" enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property TimeMapIndex="0" enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property TimeMapIndex="0" enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property TimeMapIndex="0" enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property TimeMapIndex="0" enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 9" centerPoint3DY="64">
+                  <matrix>
+                    <Matrix tx="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="64" y="64"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="458" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/jaw_bottom.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/jaw_top.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="461" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="464" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/jaw_bottom.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/jaw_top.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="467" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="470" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/jaw_bottom.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/jaw_top.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="473" duration="3" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="476" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_water.png">
+                  <matrix>
+                    <Matrix a="0.699996948242188" d="0.699996948242188" tx="-89.6" ty="-89.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="481" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="486" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_water.png">
+                  <matrix>
+                    <Matrix a="0.699996948242188" d="0.699996948242188" tx="-89.6" ty="-89.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="491" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="496" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/punch_water.png">
+                  <matrix>
+                    <Matrix a="0.699996948242188" d="0.699996948242188" tx="-89.6" ty="-89.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="501" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="506" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/battle_shield.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="511" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="516" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/battle_shield.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="521" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="526" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/battle_shield.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="531" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="536" duration="3" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye1.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="539" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="542" duration="3" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye1.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="545" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="548" duration="3" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye1.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="551" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="554" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="555" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="556" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="557" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="558" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="559" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="560" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="561" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="562" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="563" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="564" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="565" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="566" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="567" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="568" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="569" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="570" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="571" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="572" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="573" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="574" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="575" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="576" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="577" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="578" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="579" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="580" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="581" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="582" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="583" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="584" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="585" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="586" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="587" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="588" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="589" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="590" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="591" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="592" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="593" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="594" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="595" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="596" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="597" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="598" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="599" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye2.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="600" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/eye21.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="601" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="602" duration="5" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/lightning-purp.png">
+                  <matrix>
+                    <Matrix a="3.50010681152344" d="3.49993896484375" tx="-56" ty="-148.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="24"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="607" duration="5" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="612" duration="5" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/lightning-purp.png">
+                  <matrix>
+                    <Matrix a="3.50010681152344" d="3.49993896484375" tx="-56" ty="-148.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="24"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="617" duration="5" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="622" duration="5" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/lightning-purp.png">
+                  <matrix>
+                    <Matrix a="3.50010681152344" d="3.49993896484375" tx="-56" ty="-148.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="24"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="627" duration="10" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="637" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/Hit-green.png">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="642" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="647" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/Hit-green.png">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="652" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="657" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/Hit-green.png">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="662" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="667" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/Hit-big-color.png">
+                  <matrix>
+                    <Matrix a="0.399993896484375" d="0.399993896484375" tx="-51.2" ty="-51.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="672" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="677" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/Hit-big-color.png">
+                  <matrix>
+                    <Matrix a="0.399993896484375" d="0.399993896484375" tx="-51.2" ty="-51.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="682" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="687" duration="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/Hit-big-color.png">
+                  <matrix>
+                    <Matrix a="0.399993896484375" d="0.399993896484375" tx="-51.2" ty="-51.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="692" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

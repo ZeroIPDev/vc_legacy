@@ -1,0 +1,108 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tutorial" itemID="570ef11c-00000027" linkageExportForAS="true" linkageIdentifier="tut" lastModified="1530640276" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="Tutorial">
+      <layers>
+        <DOMLayer name="AS" color="#FFFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Text" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText width="240.2" height="30.15" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-120.1" ty="-155.3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>WELCOME!</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="30" face="PokemonGB"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText width="330.2" height="32.2" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-165.1" ty="-84.8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Your VirtuaCreature is&#xD;almost ready!</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="15" face="PokemonGB"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMSymbolInstance libraryItemName="Press Space" selected="true" centerPoint3DY="98">
+                  <matrix>
+                    <Matrix tx="-167.1" ty="80.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="167.1" y="17.05"/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[onClipEvent (load) {
+	if (_root.tutorial == 0) {
+	tutsound = new Sound(this);
+	tutsound.attachSound("bleep");
+	tutsound.start(0, 2);
+}}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+                <DOMStaticText left="-85.6" width="315.2" height="49.3" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-72" ty="-24.65"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Head to the evolution&#xD;chamber and&#xD;watch it hatch!</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="15" bitmapSize="300" face="PokemonGB"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Box" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square" weight="8">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!4110 -3269|4110 3270!4110 3270|-4109 3270!-4109 3270|-4109 -3269!-4109 -3269|4110 -3269"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

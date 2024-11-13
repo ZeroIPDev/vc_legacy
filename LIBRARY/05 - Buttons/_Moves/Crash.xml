@@ -1,0 +1,110 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="05 - Buttons/_Moves/Crash" itemID="5853498b-00000181" symbolType="button" lastModified="1481853379">
+  <timeline>
+    <DOMTimeline name="Crash">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText width="125.2" height="25.2" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-62.6" ty="-12.6"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Crash</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="25" face="PokemonGB"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMStaticText width="125.2" height="25.2" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-62.6" ty="-12.6"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Crash</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="25" face="PokemonGB" fillColor="#FF0000"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMStaticText width="125.2" height="25.2" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-62.6" ty="-12.6"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Crash</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="25" face="PokemonGB" fillColor="#FF00FF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728" soundName="03 - Sounds/Blip_Select" soundZoomLevel="65535">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements>
+                <DOMStaticText width="125.2" height="25.2" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-62.6" ty="-12.6"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Crash</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="25" face="PokemonGB" fillColor="#FF00FF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!1252 -332S6|1252 252!1252 252|-1332 252!-1332 252|-1332 -332!-1332 -332|1252 -332"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

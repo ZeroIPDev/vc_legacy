@@ -1,0 +1,44 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="05 - Buttons/Stuffed" itemID="573e23c9-000000af" symbolType="button" lastModified="1463690219">
+  <timeline>
+    <DOMTimeline name="Stuffed">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/NotTurkey">
+                  <matrix>
+                    <Matrix a="0.125" d="0.125" tx="-16" ty="-16"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square" weight="8">
+                        <fill>
+                          <SolidColor color="#FF00FF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!320 -320|-320 -320!-320 -320|-320 320!-320 320|320 320!320 320|320 -320"/>
+                  </edges>
+                </DOMShape>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/NotTurkey">
+                  <matrix>
+                    <Matrix a="0.125" d="0.125" tx="-16" ty="-16"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

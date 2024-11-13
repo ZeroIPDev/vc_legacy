@@ -1,0 +1,96 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="07 - Movieclips/EquipToSlot" itemID="57f2ecdc-00000168" lastModified="1559612313" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="EquipToSlot" currentFrame="6">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements>
+                <DOMSymbolInstance libraryItemName="07 - Movieclips/EquipToSlot_Inner" name="thisslot" centerPoint3DX="0.25" centerPoint3DY="0.5">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square" weight="4">
+                        <fill>
+                          <SolidColor color="#666666"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!640 -640|-640 -640!-640 -640|-640 640!-640 640|640 640!640 640|640 -640"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="07 - Movieclips/EquipToSlot_Inner" name="thisslot" centerPoint3DX="0.25" centerPoint3DY="0.5">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="4" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square" weight="4">
+                        <fill>
+                          <SolidColor color="#FF00FF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!640 -640|-640 -640!-640 -640|-640 640!-640 640|640 640!640 640|640 -640"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="07 - Movieclips/EquipToSlot_Inner" name="thisslot" centerPoint3DX="0.25" centerPoint3DY="0.5">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[gotoAndStop(2);]]></script>
+              </Actionscript>
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square" weight="4">
+                        <fill>
+                          <SolidColor color="#FF00FF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!640 -640|-640 -640!-640 -640|-640 640!-640 640|640 640!640 640|640 -640"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="07 - Movieclips/EquipToSlot_Inner" name="thisslot" centerPoint3DX="0.25" centerPoint3DY="0.5">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

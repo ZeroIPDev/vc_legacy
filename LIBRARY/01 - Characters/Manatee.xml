@@ -1,0 +1,60 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="01 - Characters/Manatee" itemID="5b39b4f0-00000483" lastModified="1530508610">
+  <timeline>
+    <DOMTimeline name="Manatee" currentFrame="23">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/Manatee-sprite-1.png">
+                  <matrix>
+                    <Matrix a="0.899993896484375" d="0.899993896484375" tx="-106.2" ty="-70.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118" y="78"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/Manatee-sprite-1.png">
+                  <matrix>
+                    <Matrix a="0.899993896484375" d="0.899993896484375" tx="-106.2" ty="-70.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118" y="78"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/Manatee-Sprite-2.png">
+                  <matrix>
+                    <Matrix a="0.899993896484375" d="0.899993896484375" tx="-109.8" ty="-55.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="122" y="62"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="23" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/Manatee-Sprite-2.png">
+                  <matrix>
+                    <Matrix a="0.899993896484375" d="0.899993896484375" tx="-109.8" ty="-55.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="122" y="62"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,60 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="01 - Characters/Frog" itemID="5b351127-00000547" lastModified="1530205147">
+  <timeline>
+    <DOMTimeline name="Frog" currentFrame="14">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/FrogFr1large.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-115.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="192"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/FrogFr1large.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-115.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="192"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/FrogFr2large.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-115.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="192"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="23" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="04 - Sprites/_Creatures/FrogFr2large.png">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-76.8" ty="-115.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="192"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

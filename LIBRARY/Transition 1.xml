@@ -1,0 +1,39 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Transition 1" itemID="56fda20d-00000055" symbolType="graphic" lastModified="1459462680">
+  <timeline>
+    <DOMTimeline name="Transition 1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="9" tweenType="motion" motionTweenRotate="clockwise" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/effectSymbol_3" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="400" ty="300"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/effectSymbol_3" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="400" ty="300"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

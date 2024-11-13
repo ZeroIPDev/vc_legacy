@@ -1,0 +1,177 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="OptionMenu" itemID="5722951d-00000077" lastModified="1711416333" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="OptionMenu" currentFrame="1">
+      <layers>
+        <DOMLayer name="As" color="#FFFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Close" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/Exit" symbolType="button">
+                  <matrix>
+                    <Matrix tx="199" ty="-94.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.opt._x = -4000;
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+                <DOMStaticText left="68.9" width="330.2" height="30.15" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-234" ty="-108.55"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>--OPTIONS--</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="30" face="PokemonGB"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Text" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="DeleteSave" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-162.1" ty="37.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="162.1" y="12.05"/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	nextFrame();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Cheats" symbolType="button">
+                  <matrix>
+                    <Matrix ty="0.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on(release) {
+	_root.gotoCheats();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMStaticText width="260.2" height="20.15" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix d="0.9979248046875" tx="-130.1" ty="39.45"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>ARE YOU SURE?</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="20" face="PokemonGB" fillColor="#CC0000"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Yes" symbolType="button">
+                  <matrix>
+                    <Matrix a="1.43885803222656" d="1.43885803222656" tx="-131.95" ty="76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="24.6" y="9.5"/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.saveClear();
+	_root.saveFlush();
+	_root.restart();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+                <DOMStaticText width="15.2" height="15.1" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.43885803222656" d="1.43885803222656" tx="-6.8" ty="76.7"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>/</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="15" face="PokemonGB" fillColor="#FF0000"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_No" symbolType="button">
+                  <matrix>
+                    <Matrix a="1.43885803222656" d="1.43885803222656" tx="80.25" ty="76.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.1" y="9.5"/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	gotoAndStop(1);
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="BG" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square" weight="8">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!-4509 -2467|4510 -2467!4510 -2467|4510 2467!4510 2467|-4509 2467!-4509 2467|-4509 -2467"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

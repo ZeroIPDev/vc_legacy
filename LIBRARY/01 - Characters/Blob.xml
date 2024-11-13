@@ -1,0 +1,60 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="01 - Characters/Blob" itemID="571ec016-00000069" lastModified="1530206712">
+  <timeline>
+    <DOMTimeline name="Blob" currentFrame="13">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/Blob">
+                  <matrix>
+                    <Matrix a="0.79998779296875" d="0.79998779296875" tx="-40.8" ty="-28.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="51" y="35.5"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/Blob">
+                  <matrix>
+                    <Matrix a="0.79998779296875" d="0.79998779296875" tx="-40.8" ty="-28.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="51" y="35.5"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/Blob-2">
+                  <matrix>
+                    <Matrix a="0.79998779296875" d="0.79998779296875" tx="-47.2" ty="-25.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="59" y="31.5"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="23" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/Blob-2">
+                  <matrix>
+                    <Matrix a="0.79998779296875" d="0.79998779296875" tx="-47.2" ty="-25.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="59" y="31.5"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

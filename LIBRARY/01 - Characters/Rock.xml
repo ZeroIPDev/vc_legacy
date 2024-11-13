@@ -1,0 +1,60 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="01 - Characters/Rock" itemID="5b35169f-0000067e" lastModified="1530206091">
+  <timeline>
+    <DOMTimeline name="Rock" currentFrame="23">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/RockHumanoidFrame1.png">
+                  <matrix>
+                    <Matrix a="0.699996948242188" d="0.699996948242188" tx="-89.6" ty="-163.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="192"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/RockHumanoidFrame1.png">
+                  <matrix>
+                    <Matrix a="0.699996948242188" d="0.699996948242188" tx="-89.6" ty="-163.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="192"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/RockHumanoidFrame2.png">
+                  <matrix>
+                    <Matrix a="0.699996948242188" d="0.699996948242188" tx="-89.6" ty="-163.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="192"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="23" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/RockHumanoidFrame2.png">
+                  <matrix>
+                    <Matrix a="0.699996948242188" d="0.699996948242188" tx="-89.6" ty="-163.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="192"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

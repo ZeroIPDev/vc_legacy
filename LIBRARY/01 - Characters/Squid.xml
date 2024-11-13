@@ -1,0 +1,60 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="01 - Characters/Squid" itemID="5b3517d6-000006b6" lastModified="1530206292">
+  <timeline>
+    <DOMTimeline name="Squid" currentFrame="16">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/Squid.png">
+                  <matrix>
+                    <Matrix a="0.699996948242188" d="0.699981689453125" tx="-89.6" ty="-154.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="192"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/Squid.png">
+                  <matrix>
+                    <Matrix a="0.699996948242188" d="0.699981689453125" tx="-89.6" ty="-154.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="192"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/Squid f2.png">
+                  <matrix>
+                    <Matrix a="0.699996948242188" d="0.699996948242188" tx="-89.6" ty="-154.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="192"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="23" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/Squid f2.png">
+                  <matrix>
+                    <Matrix a="0.699996948242188" d="0.699996948242188" tx="-89.6" ty="-154.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="192"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,757 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Explode 18" itemID="572286a9-00000365" symbolType="graphic" lastModified="1461880491">
+  <timeline>
+    <DOMTimeline name="Explode 18">
+      <layers>
+        <DOMLayer name="left00" color="#FF4F4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left00">
+                  <matrix>
+                    <Matrix tx="-63.75" ty="-63.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.45" y="16.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left00">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="-1.05615234375" c="0.5" d="1.829345703125" tx="-269.75" ty="-210"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.45" y="16.45"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left00">
+                  <matrix>
+                    <Matrix a="0.5" b="-2.79266357421875" c="0.86602783203125" d="1.61235046386719" tx="-469.75" ty="-27.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.5" y="16.4"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="left01" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left01">
+                  <matrix>
+                    <Matrix tx="-30.85" ty="-63.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.95" y="16.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left01">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="-1.06242370605469" c="0.5" d="1.84017944335938" tx="-186.9" ty="-210.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.95" y="16.4"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left01">
+                  <matrix>
+                    <Matrix a="0.5" b="-2.82980346679688" c="0.86602783203125" d="1.6337890625" tx="-337.1" ty="-28.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="16.4"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="left10" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left10">
+                  <matrix>
+                    <Matrix tx="-63.75" ty="-30.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.45" y="15.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left10">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="-1.06687927246094" c="0.5" d="1.847900390625" tx="-169.5" ty="-176.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.45" y="15.9"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left10">
+                  <matrix>
+                    <Matrix a="0.5" b="-2.8143310546875" c="0.86602783203125" d="1.62486267089844" tx="-269.3" ty="5.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.45" y="15.9"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="left11" color="#FFFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left11">
+                  <matrix>
+                    <Matrix tx="-30.85" ty="-30.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.95" y="15.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left11">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="-1.0733642578125" c="0.5" d="1.85916137695313" tx="-86.65" ty="-177.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.95" y="15.9"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left11">
+                  <matrix>
+                    <Matrix a="0.5" b="-2.85232543945313" c="0.86602783203125" d="1.64678955078125" tx="-136.65" ty="4.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.95" y="15.9"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="left20" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left20">
+                  <matrix>
+                    <Matrix tx="-63.75" ty="1.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.45" y="15.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left20">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="-1.06753540039063" c="0.5" d="1.84902954101563" tx="-269.45" ty="-144.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.45" y="15.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left20">
+                  <matrix>
+                    <Matrix a="0.5" b="-2.8143310546875" c="0.86602783203125" d="1.62486267089844" tx="-469.3" ty="37.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.45" y="15.9"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="left21" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left21">
+                  <matrix>
+                    <Matrix tx="-30.85" ty="1.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.95" y="15.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left21">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="-1.07403564453125" c="0.5" d="1.86032104492188" tx="-186.6" ty="-145.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.95" y="15.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left21">
+                  <matrix>
+                    <Matrix a="0.5" b="-2.85232543945313" c="0.86602783203125" d="1.64678955078125" tx="-336.65" ty="36.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="15.9"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="left30" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left30">
+                  <matrix>
+                    <Matrix tx="-63.75" ty="32.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.45" y="15.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left30">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="-1.079345703125" c="0.5" d="1.8695068359375" tx="-169.25" ty="-112.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.5" y="15.35"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left30">
+                  <matrix>
+                    <Matrix a="0.5" b="-2.83648681640625" c="0.86602783203125" d="1.63763427734375" tx="-268.85" ty="69.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.45" y="15.4"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="left31" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left31">
+                  <matrix>
+                    <Matrix tx="-30.85" ty="32.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.95" y="15.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left31">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="-1.08616638183594" c="0.5" d="1.88128662109375" tx="-86.4" ty="-113.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.95" y="15.35"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/left31">
+                  <matrix>
+                    <Matrix a="0.5" b="-2.8753662109375" c="0.86602783203125" d="1.66009521484375" tx="-136.2" ty="68.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.95" y="15.4"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="right00" color="#FF4F4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right00">
+                  <matrix>
+                    <Matrix tx="1.05" ty="-63.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.9" y="16.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right00">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="1.06242370605469" c="-0.5" d="1.84017944335938" tx="61.4" ty="-244.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.9" y="16.45"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right00">
+                  <matrix>
+                    <Matrix a="0.5" b="2.83203125" c="-0.86602783203125" d="1.63507080078125" tx="123.3" ty="-119.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.9" y="16.45"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="right01" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right01">
+                  <matrix>
+                    <Matrix tx="32.9" ty="-63.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.4" y="16.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right01">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="1.06883239746094" c="-0.5" d="1.85125732421875" tx="143.2" ty="-244.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.4" y="16.45"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right01">
+                  <matrix>
+                    <Matrix a="0.5" b="2.87303161621094" c="-0.86602783203125" d="1.65875244140625" tx="254.85" ty="-118.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.4" y="16.45"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="right10" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right10">
+                  <matrix>
+                    <Matrix tx="1.05" ty="-30.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.9" y="15.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right10">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="1.07339477539063" c="-0.5" d="1.85916137695313" tx="161.15" ty="-211.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.9" y="15.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right10">
+                  <matrix>
+                    <Matrix a="0.5" b="2.85459899902344" c="-0.86602783203125" d="1.64810180664063" tx="322.85" ty="-86.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.9" y="15.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="right11" color="#FFFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right11">
+                  <matrix>
+                    <Matrix tx="32.9" ty="-30.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.4" y="15.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right11">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="1.08004760742188" c="-0.5" d="1.87066650390625" tx="242.95" ty="-211.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.4" y="15.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right11">
+                  <matrix>
+                    <Matrix a="0.5" b="2.89657592773438" c="-0.86602783203125" d="1.67233276367188" tx="454.4" ty="-86.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.4" y="15.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="right20" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right20">
+                  <matrix>
+                    <Matrix tx="1.05" ty="1.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.9" y="15.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right20">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="1.07403564453125" c="-0.5" d="1.86032104492188" tx="61.15" ty="-179.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.9" y="15.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right20">
+                  <matrix>
+                    <Matrix a="0.5" b="2.85459899902344" c="-0.86602783203125" d="1.64810180664063" tx="122.85" ty="-54.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.9" y="15.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="right21" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right21">
+                  <matrix>
+                    <Matrix tx="32.9" ty="1.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.4" y="15.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right21">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="1.08071899414063" c="-0.5" d="1.87187194824219" tx="142.95" ty="-179.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.4" y="15.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right21">
+                  <matrix>
+                    <Matrix a="0.5" b="2.89657592773438" c="-0.86602783203125" d="1.67233276367188" tx="254.4" ty="-54.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.4" y="15.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="right30" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right30">
+                  <matrix>
+                    <Matrix tx="1.05" ty="32.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.9" y="15.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right30">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="1.08616638183594" c="-0.5" d="1.88128662109375" tx="160.85" ty="-147.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.9" y="15.35"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right30">
+                  <matrix>
+                    <Matrix a="0.5" b="2.877685546875" c="-0.86602783203125" d="1.66143798828125" tx="322.4" ty="-23.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.9" y="15.45"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="right31" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right31">
+                  <matrix>
+                    <Matrix tx="32.9" ty="32.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.4" y="15.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="7" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right31">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="1.09312438964844" c="-0.5" d="1.89334106445313" tx="242.65" ty="-147.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.4" y="15.35"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Effects Folder/EffectExplode 18/right31">
+                  <matrix>
+                    <Matrix a="0.5" b="2.920654296875" c="-0.86602783203125" d="1.68621826171875" tx="453.95" ty="-22.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.4" y="15.4"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="EffectExplode 18" color="#4F80FF" locked="true" current="true" isSelected="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Creatures/Egg2.0">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-63.75" ty="-63.75"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Effects Folder/EffectExplode 18/right30" itemID="572286aa-000003af" lastModified="1461880490">
+  <timeline>
+    <DOMTimeline name="right30">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix tx="-1.05" ty="-32.9"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <BitmapFill bitmapPath="04 - Sprites/_Creatures/Egg2.0" bitmapIsClipped="false">
+                        <matrix>
+                          <Matrix a="10" d="10" tx="-63.75" ty="-63.75"/>
+                        </matrix>
+                      </BitmapFill>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!21 658|21 1275!21 1275|658 1275!658 1275|658 658!658 658|21 658"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

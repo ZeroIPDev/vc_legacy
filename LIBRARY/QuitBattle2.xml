@@ -1,0 +1,95 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="QuitBattle2" itemID="5d9537bb-00000691" lastModified="1570060234">
+  <timeline>
+    <DOMTimeline name="QuitBattle2">
+      <layers>
+        <DOMLayer name="Text" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Yes" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-113.6" ty="15.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="24.6" y="9.55"/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.leaveBattle();
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+                <DOMStaticText width="15.2" height="15.1" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-7.6" ty="15.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>/</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="15" face="PokemonGB" fillColor="#FF0000"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText left="27.5" width="455.2" height="43.3" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-255.1" ty="-47.1"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Are you sure you want to quit&#xD;the battle? All earned XP and money&#xD;will be lost.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="13" bitmapSize="260" face="PokemonGB"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/CANCEL" symbolType="button">
+                  <matrix>
+                    <Matrix tx="90" ty="25.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on(release) {
+	_root.confirmleave._x = -4000;
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square" weight="8">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!5029 -1210S2|5029 1210!5029 1210|-5030 1210!-5030 1210|-5030 -1210!-5030 -1210|5029 -1210"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Effects Folder/effectSymbol_1" itemID="56fb0463-0000002c" symbolType="graphic" lastModified="1459291235">
+  <timeline>
+    <DOMTimeline name="effectSymbol_1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText selected="true" width="700.2" height="25.2" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-350.1" ty="-12.6"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Zero Imagination Productions</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="25" face="PokemonGB"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

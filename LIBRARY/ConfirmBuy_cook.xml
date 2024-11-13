@@ -1,0 +1,98 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ConfirmBuy_cook" itemID="5b443146-00000400" lastModified="1531422628">
+  <timeline>
+    <DOMTimeline name="ConfirmBuy_cook">
+      <layers>
+        <DOMLayer name="Text" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_Yes" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-113.6" ty="15.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="24.6" y="9.55"/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.inprogress = false;
+	_root.addnewCooking(_root.itemid, _root.itemprice);
+	_root.confirmbuy._x = -4000;
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+                <DOMStaticText width="15.2" height="15.1" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-7.6" ty="15.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>/</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="15" face="PokemonGB" fillColor="#FF0000"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMSymbolInstance libraryItemName="05 - Buttons/_No" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix tx="72.9" ty="15.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.1" y="9.55"/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[on (release) {
+	_root.inprogress = false;
+	_root.confirmbuy._x = -4000;
+}]]></script>
+                  </Actionscript>
+                </DOMSymbolInstance>
+                <DOMStaticText left="45" width="420.2" height="32.2" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-255.1" ty="-43.1"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Are you sure you want to buy&#xD;this item?</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="15" face="PokemonGB"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square" weight="8">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!5029 1210S2|-5030 1210!-5030 1210|-5030 -1210!-5030 -1210|5029 -1210!5029 -1210|5029 1210"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

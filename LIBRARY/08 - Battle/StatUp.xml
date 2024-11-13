@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="08 - Battle/StatUp" itemID="5adbbd0b-000003ed" symbolType="graphic" lastModified="1524350282">
+  <timeline>
+    <DOMTimeline name="StatUp">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_SFX/Arrow VC.png">
+                  <matrix>
+                    <Matrix a="-2.99993896484375" d="-3" tx="48" ty="72"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="24"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

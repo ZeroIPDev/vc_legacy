@@ -1,0 +1,276 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="05 - Buttons/_Equipment/+1Pack" itemID="575b860c-000000f8" symbolType="button" lastModified="1531427593">
+  <timeline>
+    <DOMTimeline name="+1Pack" currentFrame="3">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Medical Cross Purple">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-159.7" ty="-96.6"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Potion Blue">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="32.3" ty="-0.6"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Running Shoes Green">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-95.7" ty="-0.6"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Sheild Red">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-96.6"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/sword purple">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="96.3" ty="-96.6"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Medical Cross Purple">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-159.7" ty="-96.6"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Potion Blue">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="32.3" ty="-0.6"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Running Shoes Green">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-95.7" ty="-0.6"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Sheild Red">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-96.6"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/sword purple">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="96.3" ty="-96.6"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Medical Cross Purple">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-159.7" ty="-96.6"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Potion Blue">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="32.3" ty="-0.6"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Running Shoes Green">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-95.7" ty="-0.6"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/Sheild Red">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-96.6"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="04 - Sprites/_Equipment/sword purple">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="96.3" ty="-96.6"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="04 - Sprites/_Equipment/Medical Cross Purple">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-159.7" ty="-96.6"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance selected="true" libraryItemName="04 - Sprites/_Equipment/Potion Blue">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="32.3" ty="-0.6"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance selected="true" libraryItemName="04 - Sprites/_Equipment/Running Shoes Green">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-95.7" ty="-0.6"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance selected="true" libraryItemName="04 - Sprites/_Equipment/Sheild Red">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="-32" ty="-96.6"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance selected="true" libraryItemName="04 - Sprites/_Equipment/sword purple">
+                  <matrix>
+                    <Matrix a="0.25" d="0.25" tx="96.3" ty="-96.6"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square" weight="8">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!-4410 -3380|4409 -3380!4409 -3380|4409 2400!4409 2400|-4410 2400!-4410 2400|-4410 -3380"/>
+                  </edges>
+                </DOMShape>
+                <DOMStaticText width="300.2" height="20.15" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-150.1" ty="-147.55"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>+1 Starter Pack</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="20" face="PokemonGB" fillColor="#FF0000"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square" weight="8">
+                        <fill>
+                          <SolidColor color="#666666"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!4409 -3380|4409 2400!4409 2400|-4410 2400!-4410 2400|-4410 -3380!-4410 -3380|4409 -3380"/>
+                  </edges>
+                </DOMShape>
+                <DOMStaticText width="300.2" height="20.15" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-150.1" ty="-147.55"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>+1 Starter Pack</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="20" face="PokemonGB" fillColor="#FF0000"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square" weight="8">
+                        <fill>
+                          <SolidColor color="#FF00FF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!4409 2400|-4410 2400!-4410 2400|-4410 -3380!-4410 -3380|4409 -3380!4409 -3380|4409 2400"/>
+                  </edges>
+                </DOMShape>
+                <DOMStaticText width="300.2" height="20.15" autoExpand="true" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-150.1" ty="-147.55"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>+1 Starter Pack</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="20" face="PokemonGB" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square" weight="8">
+                        <fill>
+                          <SolidColor color="#FF00FF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!-4410 -3380|4409 -3380!4409 -3380|4409 2400!4409 2400|-4410 2400!-4410 2400|-4410 -3380"/>
+                  </edges>
+                </DOMShape>
+                <DOMStaticText width="300.2" height="20.15" autoExpand="true" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-150.1" ty="-147.55"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>+1 Starter Pack</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="20" face="PokemonGB" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
