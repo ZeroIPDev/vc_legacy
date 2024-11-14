@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#C0C0C0" guidesColor="#00FF00" width="800" height="600" frameRate="30" currentTimeline="6" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 481" majorVersion="12" buildNumber="481" gridSpacingX="18" gridSpacingY="18" snapAlignBorderSpacing="18" timelineHeight="154" timelineLabelWidth="0" nextSceneIdentifier="122" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#C0C0C0" guidesColor="#00FF00" width="800" height="600" frameRate="30" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 481" majorVersion="12" buildNumber="481" gridSpacingX="18" gridSpacingY="18" snapAlignBorderSpacing="18" timelineHeight="154" timelineLabelWidth="0" nextSceneIdentifier="122" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
      <folders>
           <DOMFolderItem name="01 - Characters" itemID="5710211a-00000036"/>
           <DOMFolderItem name="01 - Characters/_OLD" itemID="571b9e8f-00000059"/>
@@ -610,7 +610,7 @@
           <Include href="Meal.xml" itemIcon="0" loadImmediate="false" itemID="572579a7-00000082" lastModified="1468598526"/>
           <Include href="MED.xml" itemIcon="0" loadImmediate="false" itemID="57229625-0000007f" lastModified="1461893091"/>
           <Include href="OK.xml" itemIcon="0" loadImmediate="false" itemID="57643b89-00000101" lastModified="1466186691"/>
-          <Include href="OptionMenu.xml" loadImmediate="false" itemID="5722951d-00000077" lastModified="1711416333"/>
+          <Include href="OptionMenu.xml" loadImmediate="false" itemID="5722951d-00000077" lastModified="1731544929"/>
           <Include href="Press Space.xml" loadImmediate="false" itemID="57007ec6-0000001a" lastModified="1459650246"/>
           <Include href="Quality.xml" loadImmediate="false" itemID="57229643-00000080" lastModified="1475795588"/>
           <Include href="QuitBattle.xml" loadImmediate="false" itemID="5b4552e1-000003f3" lastModified="1531270321"/>
@@ -661,7 +661,9 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[onEnterFrame = function (){
+                                        <script><![CDATA[#include "Assets\Scripts\soundFunctions.as"
+setVolume(50);
+onEnterFrame = function (){
 Mouse.hide();
 startDrag(cursor,true);
 }]]></script>
@@ -798,9 +800,9 @@ startDrag(cursor,true);
                     </DOMLayer>
                </layers>
           </DOMTimeline>
-          <DOMTimeline name="Title Screen" currentFrame="10">
+          <DOMTimeline name="Title Screen">
                <layers>
-                    <DOMLayer name="AS" color="#FFFF4F" autoNamed="false">
+                    <DOMLayer name="AS" color="#FFFF4F" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
@@ -898,7 +900,7 @@ demoString();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Buttons" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Buttons" color="#9933CC" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="10" keyMode="9728">
                                    <elements/>
@@ -3048,7 +3050,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -3375,7 +3377,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -3653,7 +3655,7 @@ on(release) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -5798,7 +5800,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -5816,7 +5818,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -5834,7 +5836,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -5852,7 +5854,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -5870,7 +5872,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -5888,7 +5890,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -5906,7 +5908,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -5924,7 +5926,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -5942,7 +5944,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -5960,7 +5962,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -5981,7 +5983,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -7977,7 +7979,7 @@ on(release) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -7995,7 +7997,7 @@ on(release) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -8013,7 +8015,7 @@ on(release) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -8031,7 +8033,7 @@ on(release) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -8049,7 +8051,7 @@ on(release) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -9135,7 +9137,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -9153,7 +9155,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -9171,7 +9173,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -9189,7 +9191,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -9207,7 +9209,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -9225,7 +9227,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -12321,7 +12323,7 @@ on (release) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -12339,7 +12341,7 @@ on (release) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -12357,7 +12359,7 @@ on (release) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -13309,7 +13311,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -13327,7 +13329,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -13869,7 +13871,7 @@ chestSet();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -14398,7 +14400,7 @@ chestSet();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -17987,7 +17989,7 @@ this.onPress = function() {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -18005,7 +18007,7 @@ this.onPress = function() {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -18023,7 +18025,7 @@ this.onPress = function() {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -18041,7 +18043,7 @@ this.onPress = function() {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -18542,7 +18544,7 @@ _root.lvlNext.text = nextLvlText();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -19412,7 +19414,7 @@ gotoAndPlay("Evolution", 1);]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -19430,7 +19432,7 @@ gotoAndPlay("Evolution", 1);]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -19451,7 +19453,7 @@ gotoAndPlay("Evolution", 1);]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -19694,7 +19696,7 @@ gotoAndPlay("Hatch", 1);]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31184,7 +31186,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31202,7 +31204,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31220,7 +31222,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31238,7 +31240,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31256,7 +31258,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31274,7 +31276,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31292,7 +31294,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31310,7 +31312,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31328,7 +31330,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31346,7 +31348,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31364,7 +31366,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31382,7 +31384,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31400,7 +31402,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31418,7 +31420,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31436,7 +31438,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31454,7 +31456,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31472,7 +31474,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31490,7 +31492,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31508,7 +31510,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31526,7 +31528,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31544,7 +31546,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31562,7 +31564,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31580,7 +31582,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31598,7 +31600,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31616,7 +31618,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31634,7 +31636,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31652,7 +31654,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31670,7 +31672,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31688,7 +31690,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31706,7 +31708,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31724,7 +31726,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31742,7 +31744,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -31760,7 +31762,7 @@ _root.battleRound();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -33676,7 +33678,7 @@ char();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -33694,7 +33696,7 @@ char();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -38355,7 +38357,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970S4|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -38373,7 +38375,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -38391,7 +38393,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -38409,7 +38411,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -38427,7 +38429,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -38445,7 +38447,7 @@ on(rollOut) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -38835,7 +38837,7 @@ stopAllSounds();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -38853,7 +38855,7 @@ stopAllSounds();]]></script>
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -39303,7 +39305,7 @@ on(release) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -39321,7 +39323,7 @@ on(release) {
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|45 11970.5!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5"/>
+                                                  <Edge strokeStyle="1" edges="!15965 11970|15955 11970!15955 11970|15955 30!15955 30|35 30.5!35 30.5|35 11970.5!15955 11970|45 11970.5"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -39355,25 +39357,25 @@ on(release) {
      </persistentData>
      <PrinterSettings/>
      <publishHistory>
-          <PublishItem publishSize="11315075" publishTime="1731463432"/>
-          <PublishItem publishSize="11315186" publishTime="1711416278"/>
-          <PublishItem publishSize="11319007" publishTime="1711298887"/>
-          <PublishItem publishSize="91404562" publishTime="1683482898"/>
-          <PublishItem publishSize="91404181" publishTime="1585635026"/>
-          <PublishItem publishSize="91404565" publishTime="1585634946"/>
-          <PublishItem publishSize="91404077" publishTime="1585634378"/>
-          <PublishItem publishSize="91403693" publishTime="1585633372"/>
-          <PublishItem publishSize="91403671" publishTime="1585625856"/>
-          <PublishItem publishSize="91403671" publishTime="1585625806"/>
-          <PublishItem publishSize="91404055" publishTime="1585625675"/>
-          <PublishItem publishSize="91404103" publishTime="1585625408"/>
-          <PublishItem publishSize="91404103" publishTime="1585625243"/>
-          <PublishItem publishSize="91404084" publishTime="1585625097"/>
-          <PublishItem publishSize="91403719" publishTime="1585624544"/>
-          <PublishItem publishSize="91403719" publishTime="1585624461"/>
-          <PublishItem publishSize="91404103" publishTime="1585624411"/>
-          <PublishItem publishSize="91404097" publishTime="1585623974"/>
-          <PublishItem publishSize="91404097" publishTime="1585623477"/>
-          <PublishItem publishSize="91404078" publishTime="1585622963"/>
+          <PublishItem publishSize="11315210" publishTime="1731545001"/>
+          <PublishItem publishSize="11315358" publishTime="1731544978"/>
+          <PublishItem publishSize="11315358" publishTime="1731544960"/>
+          <PublishItem publishSize="11315545" publishTime="1731544881"/>
+          <PublishItem publishSize="11315566" publishTime="1731544630"/>
+          <PublishItem publishSize="11315572" publishTime="1731544588"/>
+          <PublishItem publishSize="11315573" publishTime="1731544539"/>
+          <PublishItem publishSize="11315497" publishTime="1731544415"/>
+          <PublishItem publishSize="11315185" publishTime="1731544394"/>
+          <PublishItem publishSize="11315493" publishTime="1731544320"/>
+          <PublishItem publishSize="11315499" publishTime="1731544242"/>
+          <PublishItem publishSize="11315508" publishTime="1731544026"/>
+          <PublishItem publishSize="11315509" publishTime="1731543941"/>
+          <PublishItem publishSize="11315508" publishTime="1731543864"/>
+          <PublishItem publishSize="11315185" publishTime="1731543826"/>
+          <PublishItem publishSize="11315185" publishTime="1731543754"/>
+          <PublishItem publishSize="11315510" publishTime="1731543672"/>
+          <PublishItem publishSize="11315504" publishTime="1731543610"/>
+          <PublishItem publishSize="11315496" publishTime="1731543541"/>
+          <PublishItem publishSize="11315593" publishTime="1731543480"/>
      </publishHistory>
 </DOMDocument>
