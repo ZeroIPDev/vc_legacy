@@ -1,12 +1,13 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="OptionMenu" itemID="5722951d-00000077" lastModified="1731544929" lastUniqueIdentifier="9">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="OptionMenu" itemID="5722951d-00000077" lastModified="1731876389" lastUniqueIdentifier="9">
   <timeline>
     <DOMTimeline name="OptionMenu">
       <layers>
-        <DOMLayer name="As" color="#FFFF4F" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="As" color="#FFFF4F" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
-                <script><![CDATA[stop();]]></script>
+                <script><![CDATA[stop();
+volumeInput.restrict = "0-9";]]></script>
               </Actionscript>
               <elements/>
             </DOMFrame>
@@ -52,7 +53,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Text" color="#4FFF4F" autoNamed="false">
+        <DOMLayer name="Text" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -82,6 +83,32 @@
 }]]></script>
                   </Actionscript>
                 </DOMSymbolInstance>
+                <DOMInputText name="volumeInput" selected="true" left="98.8" width="46" height="15.1" maxCharacters="3" border="true" variableName="_root.gvolume" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="68.2" ty="96.8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="15" bitmapSize="300" face="PokemonGB"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMStaticText left="137.8" width="105.2" height="15.1" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-80.8" ty="96.8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Volume:</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="15" bitmapSize="300" face="PokemonGB"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
               </elements>
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">

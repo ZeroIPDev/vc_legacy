@@ -7,14 +7,14 @@
       </rdf:Description>
       <rdf:Description rdf:about=""
             xmlns:xmp="http://ns.adobe.com/xap/1.0/">
-         <xmp:MetadataDate>2024-11-13T18:52-05:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2024-11-13T18:52-05:00</xmp:ModifyDate>
+         <xmp:MetadataDate>2024-11-17T15:34:32-05:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2024-11-17T15:34:32-05:00</xmp:ModifyDate>
       </rdf:Description>
       <rdf:Description rdf:about=""
             xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
             xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
             xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#">
-         <xmpMM:InstanceID>xmp.iid:5FF90F461AA2EF11A1FA8EB016396B59</xmpMM:InstanceID>
+         <xmpMM:InstanceID>xmp.iid:CFA21A5A23A5EF11ABF0AA16E7EC735F</xmpMM:InstanceID>
          <xmpMM:DocumentID>xmp.did:06C57BDFA7EBED118B868CFDE429C48A</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:082B31BF5354EA119FC98AD90CD6B4D4</xmpMM:OriginalDocumentID>
          <xmpMM:History>
@@ -410,6 +410,12 @@
                   <stEvt:action>created</stEvt:action>
                   <stEvt:instanceID>xmp.iid:5FF90F461AA2EF11A1FA8EB016396B59</stEvt:instanceID>
                   <stEvt:when>2024-11-13T18:52-05:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Flash Professional CS6 - build 481</stEvt:softwareAgent>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>created</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:CFA21A5A23A5EF11ABF0AA16E7EC735F</stEvt:instanceID>
+                  <stEvt:when>2024-11-17T15:34:32-05:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Flash Professional CS6 - build 481</stEvt:softwareAgent>
                </rdf:li>
             </rdf:Seq>

@@ -43,7 +43,7 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!535 -520|535 565!535 565|-550 565!-550 565|-550 -520!-550 -520|535 -520"/>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!535 565|-550 565!-550 565|-550 -520!-550 -520|535 -520!535 -520|535 565"/>
                   </edges>
                 </DOMShape>
               </elements>
